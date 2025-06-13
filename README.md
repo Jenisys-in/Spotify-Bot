@@ -2,9 +2,9 @@
 
 This project is a highly sophisticated automation system for simulating human-like interaction with Spotify. It is designed to play tracks, albums, and playlists using real browser sessions, fully mimicking user behavior with stealth techniques, advanced browser fingerprinting, and robust proxy handling.
 
-## ✅ Features
+##  Features
 
-- 🔒 **Undetectable Login System**  
+-  **Undetectable Login System**  
   - Uses Puppeteer with a deeply patched stealth layer (`stealth_patch.js`)
   - Passes major anti-bot fingerprinting checks (BrowserLeaks, Sannysoft)
   - Handles retries, OTP detection, fallback reloads, and dynamic waits
@@ -14,32 +14,32 @@ This project is a highly sophisticated automation system for simulating human-li
   - Clicks the *top green play button* only (not sidebar or fallback)
   - Includes playback verification by checking pause button state and progress bar
 
-- 🌐 **Proxy Support (Sticky + Rotating)**  
+-  **Proxy Support (Sticky + Rotating)**  
   - Full support for IPRoyal, Smartproxy, and other proxy providers
   - Rotation via port 823 (HTTP) and 824 (SOCKS5) compliant
   - Proxies are dynamically attached per bot instance
 
-- 🧠 **Smart Bot Orchestration**  
+-  **Smart Bot Orchestration**  
   - Clean execution via `orchestrator/main.py`
   - Launches multiple bots in parallel with isolated persistent contexts
   - Each bot runs in a sandboxed profile with fingerprint isolation
 
-- 📈 **Playback Verification**  
+-  **Playback Verification**  
   - Ensures that clicking play starts actual playback
   - Logs false positives if Spotify UI fails to respond
   - Optionally retries or exits cleanly if playback fails
 
-- 🧹 **Clean Shutdown and Resource Handling**  
+-  **Clean Shutdown and Resource Handling**  
   - Gracefully closes Playwright contexts and browsers
   - Prevents orphaned processes or hanging sessions
   - Robust error handling and final logging per bot session
 
-- 🔎 **Logging and Debugging**  
+-  **Logging and Debugging**  
   - Colored terminal logs with clear emoji indicators
   - Logs proxy used, login status, playback status, and browser feedback
   - Handles Unicode/emoji logging compatibility on Windows
 
-## 📂 Project Structure
+##  Project Structure
 
 spotify-bot/
 ├── bots/
@@ -60,7 +60,7 @@ spotify-bot/
 └── README.md
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone and Install
 
@@ -92,7 +92,7 @@ Example:
 python orchestrator/main.py --count 10
 Launches 10 parallel Spotify bots using Playwright.
 
-⚙️ Advanced Configuration
+⚙ Advanced Configuration
 
 Proxy Types
 Type	Port	Usage
@@ -109,32 +109,32 @@ Checks for:
 Top green play button (div[data-testid="action-bar-row"] button[data-testid="play-button"])
 Pause button state after click
 Optional audio progress movement
-🛠 Debug Tips
+ Debug Tips
 
-❗ If you see:
+ If you see:
 TimeoutError: Waiting for selector context-header
 → Spotify UI may be delayed. Increase timeout or debug slow proxies.
-❌ If playback fails with no pause button detected:
+ If playback fails with no pause button detected:
 → Possibly blocked or account not premium.
 ⚠️ WebGL Errors (like "Canvas has no webgl context"):
 → Chrome not properly hardware accelerated. Try reinstalling or using a fresh profile.
 🪟 On Windows:
 Set terminal encoding to UTF-8 to avoid charmap emoji errors
 Use PYTHONIOENCODING=utf-8 when running scripts
-🤖 Tech Stack
+ Tech Stack
 
 Python 3.10+
 Playwright (Python)
 Puppeteer (Node.js)
 Custom stealth fingerprinting engine
 Proxy rotation & management
-🧪 Future Improvements
+ Future Improvements
 
 Support shuffle mode, repeat mode
 Automatically detect captcha and fallback to 2Captcha
 Integrate streaming status monitoring API
 Multi-platform support: Mac, Linux, Windows tested
-🧑‍💻 Author
+ Author
 
 Built by Tuhin | Jenisys.ai — AI + Automation Developer
 
