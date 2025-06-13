@@ -2,112 +2,112 @@
   
   {
     "bot_id": "bot2",
-    "email": "tuhindas2004@gmail.com",
-    "password": "tuhindas2009",
+    "email": ""
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/3HiobOOpSpMsi95WBKPBYk",
     "profile_dir": "profiles/bot2"
   },
   {
     "bot_id": "bot3",
-    "email": "t.u.hindas2004@gmail.com",
-    "password": "tuhindas2009",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/05lY03emii4se4itrSnT9Z",
     "profile_dir": "profiles/bot3"
   },
   {
     "bot_id": "bot4",
-    "email": "s.o.rmidas1979@gmail.com",
-    "password": "Revandas1234",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/6xePcjFjoIfrLENCpv4ksC",
     "profile_dir": "profiles/bot4"
   },
    {
     "bot_id": "bot5",
-    "email": "s.o.rmi.d.as.1979@gmail.com",
-    "password": "Souvik@1234",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/2mzvinEpCY2ynk1hJCEqWT",
     "profile_dir": "profiles/bot5"
   },
   {
     "bot_id": "bot6",
-    "email": "jenisysinfo@gmail.com ",
-    "password": "jenisys@1234",
+    "email": " ",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/6rCLFiCtBqRUOxXH6xJlmF",
     "profile_dir": "profiles/bot6"
   },
   {
     "bot_id": "bot7",
-    "email": "t117h105n100a115@gmail.com",
-    "password": "tuhin.das344",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/77ZrBJEhIL12tWo9U2yPgl",
     "profile_dir": "profiles/bot7"
   },
   {
     "bot_id": "bot8",
-    "email": "komene.bot.test2@gmail.com",
-    "password": "8787Komene!",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/2UhOZ8PfZWmBltKIxMHuSK",
     "profile_dir": "profiles/bot8"
   },
   {
     "bot_id": "bot9",
-    "email": "komene.bot.test3@gmail.com",
-    "password": "9911Stream$$",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/05lY03emii4se4itrSnT9Z",
     "profile_dir": "profiles/bot9"
   },
   {
     "bot_id": "bot10",
-    "email": "komene.streamer.bot1@gmail.com",
-    "password": "Ks@321bot1",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/album/2Ti79nwTsont5ZHfdxIzAm",
     "profile_dir": "profiles/bot10"
   },
   {
     "bot_id": "bot11",
-    "email": "komene.streamer.bot3@gmail.com",
-    "password": "Ks@321bot3",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M",
     "profile_dir": "profiles/bot11"
   },
   {
     "bot_id": "bot12",
-    "email": "komene.streamer.bot2@gmail.com ",
-    "password": "Ks@321bot2",
+    "email": " ",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/playlist/37i9dQZF1DWYkaDif7Ztbp",
     "profile_dir": "profiles/bot12"
   },
   {
     "bot_id": "bot13",
-    "email": "komene.streamer@gmail.com",
-    "password": "komene@1234",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/4t9PBD27dndlf6YMBK2ROc",
     "profile_dir": "profiles/bot13"
   },
   {
     "bot_id": "bot14",
-    "email": "komene.str@gmail.com",
-    "password": "Ks@321bot7",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/4t9PBD27dndlf6YMBK2ROc",
     "profile_dir": "profiles/bot14"
   },
   {
     "bot_id": "bot15",
-    "email": "jen.comp@mail.com",
-    "password": "tuhindas@344",
+    "email": "",
+    "password": "",
     "proxy": "http://gw.dataimpulse.com:823",
     "track_url":  "https://open.spotify.com/track/4t9PBD27dndlf6YMBK2ROc",
     "profile_dir": "profiles/bot15"
